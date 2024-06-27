@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    font-family: verdana;
+    font-size: 20px;
+    background-color: rgb(230, 193, 255);
+    color: black;
+    line-height: 1.5;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 2%;
+    border: 30px solid transparent;
+    font-size: 40px;
+    background-color: rgb(211, 144, 255);
+    border-radius: 50px;
+}
+
+button {
+    margin: 5%;
+    background-color: rgb(211, 144, 255);
+    width: 150px;
+}
+
+img {
+    border-radius: 30px; 
+    width: 600px;
+    height: 320px;
+    text-align: center;
+}
+
+div {
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 13%;
+    font-size: 18px;
+}
+
+label {
+    font-size: 18px;
+}
+
+.subtittle {
+    border: 30px solid transparent;
+    font-size: 25px;
+    background-color: rgb(211, 144, 255);
+    border-radius: 50px;
+}
