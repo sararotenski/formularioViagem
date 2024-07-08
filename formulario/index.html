@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "style.css" rel = "stylesheet">
+    <script src="formulario.js"></script>
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>BEM-VINDO(A) AO EUROTRIP!</h1>
+
+    <h2>Aqui, nós tornamos seus sonhos realidade!✨</h2>
+    <p>Selecione as suas preferências de viagem e montaremos o roteiro perfeito.</p>
+
+    <img src = "eurotrip.jpg" alt = "eurotrip">
+
+    <p class = "subtittle">Primeiramente, responda algumas informações sobre você!</p>
+
+    <div>
+    <label for = "date">Nome completo:</label><br>
+    <input class = "texto" type = "text" id = "nome" name = "nome" value = "nome"><br>
+    <label for = "date">Seu Email:</label><br>
+    <input class = "texto" type = "email" id = "email" name = "email" value = "email"><br>
+    <label for = "data">Data de nascimento:</label><br>
+    <input class = "texto" type = "date" id = "data" name = "data" value = "data"><br>
+    <label for = "senha">Senha:</label><br>
+    <input class = "texto" type = "senha" id = "senha" name = "senha" value = "senha"><br>
+    </div>
+    
+    <p class = "subtittle">Agora, nos conte como seria a sua viagem dos sonhos!</p>
+    <p>Quais países você gostaria de conhecer?</p>
+
+    <div>
+        <input type = "checkbox" id = "França" name = "países" value = "França">
+        <label for = "França">França</label><br>
+
+        <input type = "checkbox" id = "Itália" name = "países" value = "Itália">
+        <label for = "Itália">Itália</label><br>
+
+        <input type = "checkbox" id = "Inglaterra" name = "países" value = "Inglaterra">
+        <label for = "Inglaterra">Inglaterra</label><br>
+
+        <input type = "checkbox" id = "Portugal" name = "países" value = "Portugal">
+        <label for = "Portugal">Portugal</label><br>
+
+        <input type = "checkbox" id = "Espanha" name = "países" value = "Espanha">
+        <label for = "Espanha">Espanha</label><br>
+
+        <input type = "checkbox" id = "Alemanha" name = "países" value = "Alemanha">
+        <label for = "Alemanha">Alemanha</label><br>
+
+        <input type = "checkbox" id = "Grécia" name = "países" value = "Grécia">
+        <label for = "Grécia">Grécia</label><br>
+
+        <input type = "checkbox" id = "Holanda" name = "países" value = "Holanda">
+        <label for = "Holanda">Holanda</label><br>
+
+        <input type = "checkbox" id = "Polônia" name = "países" value = "Polônia">
+        <label for = "Polônia">Polônia</label><br>
+
+        <input type = "checkbox" id = "Escócia" name = "países" value = "Escócia">
+        <label for = "Escócia">Escócia</label><br>
+
+        </div>
+
+        <p>Você gostaria de viajar em classe econômica ou classe executiva?</p>
+
+        <div>
+        <input type = "radio" id = "classeEconomica" name = "classe" value = "Classe econômica">
+        <label for = "classeEconomica">Classe econômica</label><br>
+
+        <input type = "radio" id = "classeExecutiva" name = "classe" value = "Classe executiva">
+        <label for = "classeExecutiva">Classe executiva</label><br><br>
+
+        </div>
+
+        <button onclick = "enviar()" type = "submit" name = "enviar" value = "enviar">Enviar</button>
+
+</body>
+
+</html>
